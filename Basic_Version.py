@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
 import requests
@@ -23,7 +22,7 @@ def paser_html(html):
 def main():
 	print(paser_html(download_page(movie_url)))
 title=paser_html(download_page(movie_url))
-with open("text.txt","w") as file:
+with open("C:\\Users\\Spark\\Desktop\\Hackathon\\Basic_Version.txt","w") as file:
     file.write(title)
 
 
